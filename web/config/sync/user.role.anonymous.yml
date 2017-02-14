@@ -1,0 +1,17 @@
+uuid: 8e805c2e-5789-46b5-8e6e-a15a9206936a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'fetch any atom'
+  - 'view any atom'
+  - 'view media'
+  - 'view TARDIS page'

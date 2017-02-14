@@ -1,0 +1,30 @@
+uuid: 93a84fdc-2358-4b87-bab9-581c74ce1e63
+langcode: en
+status: false
+dependencies:
+  module:
+    - ctools
+  theme:
+    - plingcom2
+id: entityviewcontent
+theme: plingcom2
+region: '-1'
+weight: -4
+provider: null
+plugin: 'entity_view:node'
+settings:
+  id: 'entity_view:node'
+  label: Comments
+  provider: ctools
+  label_display: '0'
+  view_mode: comments
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

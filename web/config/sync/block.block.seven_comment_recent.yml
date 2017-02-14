@@ -1,0 +1,30 @@
+uuid: e5380ccf-1307-47f8-804f-ae4bc02bca42
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - system
+    - views
+  theme:
+    - seven
+id: seven_comment_recent
+theme: seven
+region: '-1'
+weight: -6
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/content/archive\r\n/archive"
+    context_mapping: {  }

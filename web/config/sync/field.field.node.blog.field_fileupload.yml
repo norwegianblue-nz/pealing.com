@@ -1,0 +1,27 @@
+uuid: 8248d702-e642-4ad0-813a-da9aa25e77ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fileupload
+    - node.type.blog
+  module:
+    - file
+id: node.blog.field_fileupload
+field_name: field_fileupload
+entity_type: node
+bundle: blog
+label: FileUpload
+description: 'Drag and Drop file into box (drop onto "No file selected")'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: ''
+  file_extensions: 'pdf kml gpx cer pem'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

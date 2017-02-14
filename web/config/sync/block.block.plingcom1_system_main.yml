@@ -1,0 +1,26 @@
+uuid: 40f32c9f-254f-4deb-8805-7d1aa057ca72
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: plingcom1_system_main
+theme: bartik
+region: content
+weight: -9
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /content/archive

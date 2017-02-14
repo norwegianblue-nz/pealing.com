@@ -1,0 +1,76 @@
+uuid: 87855f94-fb04-40e3-ab82-fba75152dd51
+langcode: en
+status: true
+dependencies: {  }
+id: upgrade_d7_node_revision_article
+migration_tags:
+  - 'Drupal 7'
+migration_group: migrate_drupal_7
+label: 'Node revisions (Article)'
+source:
+  plugin: d7_node_revision
+  node_type: article
+process:
+  nid: nid
+  vid: vid
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  title: title
+  uid: node_uid
+  status: status
+  created: created
+  changed: changed
+  promote: promote
+  sticky: sticky
+  revision_uid: revision_uid
+  revision_log: log
+  revision_timestamp: timestamp
+  body:
+    plugin: iterator
+    source: body
+    process:
+      value: value
+      format:
+        -
+          plugin: static_map
+          bypass: true
+          source: format
+          map:
+            - null
+        -
+          plugin: skip_on_empty
+          method: process
+        -
+          plugin: migration
+          migration:
+            - upgrade_d6_filter_format
+            - upgrade_d7_filter_format
+          source: format
+  field_tags:
+    plugin: iterator
+    source: field_tags
+    process:
+      target_id: tid
+  field_image:
+    plugin: iterator
+    source: field_image
+    process:
+      target_id: fid
+      alt: alt
+      title: title
+      width: width
+      height: height
+destination:
+  plugin: 'entity_revision:node'
+  default_bundle: article
+migration_dependencies:
+  required:
+    61: upgrade_d7_node_article
+    62: upgrade_d7_node_blog
+    63: upgrade_d7_node_page
+    64: upgrade_d7_node_poll
+  optional:
+    - upgrade_d6_filter_format
+    - upgrade_d7_filter_format

@@ -1,0 +1,38 @@
+uuid: 3af25ca0-8272-4f99-94f8-15bfb14d4c15
+langcode: en
+status: true
+dependencies: {  }
+id: upgrade_d7_node_poll
+migration_tags:
+  - 'Drupal 7'
+migration_group: migrate_drupal_7
+label: 'Nodes (Poll)'
+source:
+  plugin: d7_node
+  node_type: poll
+process:
+  nid: nid
+  vid: vid
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  title: title
+  uid: node_uid
+  status: status
+  created: created
+  changed: changed
+  promote: promote
+  sticky: sticky
+  revision_uid: revision_uid
+  revision_log: log
+  revision_timestamp: timestamp
+destination:
+  plugin: 'entity:node'
+  default_bundle: poll
+migration_dependencies:
+  required:
+    - upgrade_d7_user
+    - upgrade_d7_node_type
+  optional:
+    - upgrade_d7_field_instance

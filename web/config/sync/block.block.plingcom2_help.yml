@@ -1,0 +1,22 @@
+uuid: 698733b6-f669-4a2c-9fe4-d1f0037f3bcf
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - plingcom2
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: plingcom2_help
+theme: plingcom2
+region: '-1'
+weight: -10
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

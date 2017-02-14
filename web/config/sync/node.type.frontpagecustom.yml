@@ -1,0 +1,17 @@
+uuid: b3120366-4475-4828-a609-ebd8ed415928
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: FrontPageCustom
+type: frontpagecustom
+description: 'A customised Front Page. Only create one node!'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

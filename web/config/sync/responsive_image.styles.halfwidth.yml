@@ -1,0 +1,63 @@
+uuid: b60ee928-a3b4-46fa-822d-520147defc4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.halfwidth_ml
+    - image.style.halfwidth_mp
+    - image.style.halfwidth_n
+    - image.style.halfwidth_w
+    - image.style.halfwidth_xw
+  theme:
+    - plingcom2
+id: halfwidth
+label: HalfWidth
+image_style_mappings:
+  -
+    breakpoint_id: plingcom2.standard.extrawide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: halfwidth_xw
+  -
+    breakpoint_id: plingcom2.standard.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: halfwidth_w
+  -
+    breakpoint_id: plingcom2.standard.normal
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: halfwidth_n
+  -
+    breakpoint_id: plingcom2.standard.tablet
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 50vw
+      sizes_image_styles:
+        - halfwidth_n
+        - halfwidth_xw
+  -
+    breakpoint_id: plingcom2.standard.tablet_portrait
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: halfwidth_n
+  -
+    breakpoint_id: plingcom2.standard.mobile_landscape
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - halfwidth_ml
+        - halfwidth_mp
+  -
+    breakpoint_id: plingcom2.standard.mobile_portrait
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - halfwidth_mp
+breakpoint_group: plingcom2.standard
+fallback_image_style: halfwidth_n

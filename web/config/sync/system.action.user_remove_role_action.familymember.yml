@@ -1,0 +1,14 @@
+uuid: 668b9dac-fae7-4b8c-a2bf-a97376cffa04
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.familymember
+  module:
+    - user
+id: user_remove_role_action.familymember
+label: 'Remove the familymember role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: familymember

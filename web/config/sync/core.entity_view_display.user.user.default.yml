@@ -1,0 +1,30 @@
+uuid: f903a02a-20df-42f2-ae59-3b68c059e25d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.user_picture
+    - image.style.avatar
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: L2mtwGWH_7wDRCMIR4r_Iu_jmvQ10DV1L8ht8iNZ5qY
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  member_for:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+  user_picture:
+    label: hidden
+    settings:
+      image_style: avatar
+      image_link: content
+    type: image
+    weight: 6
+    third_party_settings: {  }
+hidden: {  }

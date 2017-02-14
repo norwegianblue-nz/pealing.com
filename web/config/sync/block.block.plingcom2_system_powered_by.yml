@@ -1,0 +1,22 @@
+uuid: 0ac07b56-f7d7-4087-84ef-55f813fe0b9d
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - plingcom2
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: plingcom2_system_powered_by
+theme: plingcom2
+region: '-1'
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,42 @@
+uuid: b2525892-77db-4be0-9f72-ddc60d13e98c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.frontpagecustom.body
+    - field.field.node.frontpagecustom.field_bg_image
+    - image.style.thumbnail
+    - node.type.frontpagecustom
+  module:
+    - image
+    - path
+id: node.frontpagecustom.default
+targetEntityType: node
+bundle: frontpagecustom
+mode: default
+content:
+  field_bg_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  path:
+    type: path
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  promote: true
+  sticky: true
+  uid: true

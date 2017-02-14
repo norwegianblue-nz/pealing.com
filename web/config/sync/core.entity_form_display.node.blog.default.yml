@@ -1,0 +1,98 @@
+uuid: 6153a802-7d54-4017-9246-c883af8b3f34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blog.body
+    - field.field.node.blog.comment_node_blog
+    - field.field.node.blog.field_fileupload
+    - field.field.node.blog.field_image
+    - field.field.node.blog.field_pics
+    - field.field.node.blog.field_tags
+    - image.style.thumbnail
+    - node.type.blog
+  module:
+    - file
+    - image
+    - path
+    - text
+id: node.blog.default
+targetEntityType: node
+bundle: blog
+mode: default
+content:
+  body:
+    weight: 2
+    type: text_textarea_with_summary
+    settings:
+      rows: 9
+      placeholder: 'You can edit the Summary (''teaser'') seperately. If you can''t be bothered, it will be automatically generated.'
+      summary_rows: 3
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+  field_fileupload:
+    weight: 6
+    type: file_generic
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_image:
+    weight: 1
+    type: image_image
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_pics:
+    weight: 4
+    type: image_image
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_tags:
+    weight: 3
+    type: entity_reference_autocomplete
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: 'Type Tags here'
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 8
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 9
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: 'The title of your post'
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  comment_node_blog: true

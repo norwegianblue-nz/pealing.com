@@ -1,0 +1,14 @@
+uuid: c7d81d94-2643-4ac8-93c3-1051eb969d3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.emailnotifications
+  module:
+    - user
+id: user_remove_role_action.emailnotifications
+label: 'Remove the emailnotifications role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: emailnotifications

@@ -1,0 +1,14 @@
+uuid: 9e5e71b4-e578-4416-8ff7-a7551b6bceb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.emailnotifications
+  module:
+    - user
+id: user_add_role_action.emailnotifications
+label: 'Add the emailnotifications role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: emailnotifications

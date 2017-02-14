@@ -1,0 +1,9 @@
+uuid: 27041abb-aac3-41d4-9917-3ff34aee1a4c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Scald tags'
+vid: scald_tags
+description: 'Scald tags vocabulary'
+hierarchy: 0
+weight: -5

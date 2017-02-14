@@ -1,0 +1,22 @@
+uuid: e1417a63-16cc-457e-9fba-a881b1513913
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: halfwidth_mp
+label: HalfWidth_mp
+effects:
+  9a7e2a95-296c-462b-846d-5900aff8135f:
+    uuid: 9a7e2a95-296c-462b-846d-5900aff8135f
+    id: image_effects_strip_metadata
+    weight: 1
+    data: {  }
+  51dee319-8668-47c0-9244-1f198e3a86a4:
+    uuid: 51dee319-8668-47c0-9244-1f198e3a86a4
+    id: image_scale
+    weight: 2
+    data:
+      width: 480
+      height: null
+      upscale: false

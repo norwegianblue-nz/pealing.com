@@ -1,0 +1,14 @@
+{
+  "name": "drupal/custom_login_button",
+  "type": "drupal-module",
+  "description": "Configurable login button to show avatar when logged in",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/custom_login_button",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/custom_login_button",
+    "source": "http://cgit.drupalcode.org/custom_login_button"
+  },
+  "require": { }
+}

@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_login_button.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function custom_login_button_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the custom_login_button module.
+    case 'help.page.custom_login_button':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Configurable login button to show avatar when logged in') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function custom_login_button_theme() {
+  return [
+    'custom_login_button' => [
+      'template' => 'custom_login_button',
+      'render element' => 'children',
+    ],
+  ];
+}

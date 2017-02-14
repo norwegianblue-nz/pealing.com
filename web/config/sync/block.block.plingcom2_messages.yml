@@ -1,0 +1,22 @@
+uuid: e2cc6f30-f52a-4bc7-afa3-6f830ab3a3d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - plingcom2
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: plingcom2_messages
+theme: plingcom2
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

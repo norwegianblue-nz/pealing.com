@@ -1,0 +1,29 @@
+uuid: 1bf085aa-a646-48b3-9a96-4f6c6f765ab3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - system
+    - views
+  theme:
+    - plingcom2
+id: plingcom2_plingcom1_comment_recent
+theme: plingcom2
+region: postscript_first
+weight: -7
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/content/archive\n/archive"

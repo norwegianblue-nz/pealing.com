@@ -1,0 +1,14 @@
+uuid: 1c272604-b6fd-4cf8-a1bb-18d7be95a3ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.webadmin
+  module:
+    - user
+id: user_add_role_action.webadmin
+label: 'Add the webadmin role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: webadmin

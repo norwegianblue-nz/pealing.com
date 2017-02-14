@@ -1,0 +1,22 @@
+uuid: 6c873434-c81e-4768-a4ea-93e52983a48c
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: halfwidth_n
+label: HalfWidth_n
+effects:
+  848f32c9-ead2-4328-b975-065af9930030:
+    uuid: 848f32c9-ead2-4328-b975-065af9930030
+    id: image_effects_strip_metadata
+    weight: 1
+    data: {  }
+  5cf170a5-d5db-43df-bda6-362e752cb006:
+    uuid: 5cf170a5-d5db-43df-bda6-362e752cb006
+    id: image_scale
+    weight: 2
+    data:
+      width: 470
+      height: null
+      upscale: false

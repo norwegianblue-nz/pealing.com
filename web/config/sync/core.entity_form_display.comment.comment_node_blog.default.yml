@@ -1,0 +1,30 @@
+uuid: 07d579a9-e1fe-46c2-9712-da52d102f0c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_blog
+    - field.field.comment.comment_node_blog.comment_body
+  module:
+    - text
+id: comment.comment_node_blog.default
+targetEntityType: comment
+bundle: comment_node_blog
+mode: default
+content:
+  comment_body:
+    weight: 2
+    type: text_textarea
+    settings:
+      rows: 5
+      placeholder: 'Add Comment'
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 1
+    settings:
+      size: 60
+      placeholder: 'Comment Subject'
+    third_party_settings: {  }
+hidden:
+  author: true

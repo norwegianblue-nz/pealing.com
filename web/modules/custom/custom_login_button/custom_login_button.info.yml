@@ -1,0 +1,5 @@
+name: custom_login_button
+type: module
+description: Configurable login button to show avatar when logged in
+core: 8.x
+package: norwegian.blue

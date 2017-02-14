@@ -1,0 +1,19 @@
+uuid: ce34c36e-f855-4fdb-90fa-4f67db0988b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.frontpagecustom.body
+    - field.field.node.frontpagecustom.field_bg_image
+    - node.type.frontpagecustom
+  module:
+    - user
+id: node.frontpagecustom.default
+targetEntityType: node
+bundle: frontpagecustom
+mode: default
+content: {  }
+hidden:
+  body: true
+  field_bg_image: true
+  links: true

@@ -1,0 +1,21 @@
+uuid: 043ec0ad-de6b-4342-91b8-19b81c905848
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.scald_author_url
+    - taxonomy.vocabulary.scald_authors
+  module:
+    - text
+id: taxonomy_term.scald_authors.scald_author_url
+field_name: scald_author_url
+entity_type: taxonomy_term
+bundle: scald_authors
+label: URL
+description: 'Homepage of the Author'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

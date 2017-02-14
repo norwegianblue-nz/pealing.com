@@ -1,0 +1,20 @@
+uuid: c731e920-5b0a-4624-b53a-e15f82155b1b
+langcode: und
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - text
+id: taxonomy_term.scald_author_url
+field_name: scald_author_url
+entity_type: taxonomy_term
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

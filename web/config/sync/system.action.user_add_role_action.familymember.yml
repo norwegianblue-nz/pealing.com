@@ -1,0 +1,14 @@
+uuid: 92f1bab8-2a62-48b8-9765-646d1e81c04a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.familymember
+  module:
+    - user
+id: user_add_role_action.familymember
+label: 'Add the familymember role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: familymember

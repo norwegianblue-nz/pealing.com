@@ -1,0 +1,17 @@
+uuid: be589e14-806c-48b6-829a-aa0accfa8699
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'fetch any atom'
+  - 'view any atom'
+  - 'view media'
+  - 'view TARDIS page'

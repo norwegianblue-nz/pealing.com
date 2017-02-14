@@ -1,0 +1,58 @@
+#!/bin/bash
+##
+## The script assumes a subdirectory structure under the theme of :
+##
+##  style -- sccs -- import
+##        |- css
+##
+##
+
+
+
+DIR=$(pwd)
+
+scriptdir=$( dirname "$0" )
+
+cd $scriptdir
+
+echo -e "\n\n###############################################################\n## Compiling SCSS in:\n## "$scriptdir"\n## " 
+
+
+
+if [ ! -d style ] ; then
+  echo -e "Whoops - 'style' directory is missing.\nExiting"
+  exit
+fi
+cd style
+#echo $(pwd)
+
+
+if [ -d scss/imports ]; then
+  importsdir=scss/imports
+fi
+
+if [ -f css_safe.tar.bz2 ]; then
+	rm -f css_safe.tar.bz2
+fi
+tar -cjf css_safe.tar.bz2 css
+
+for dir in $(find scss -type d -exec ls -1d {} \; )
+  do
+    if [ ! $dir = scss/imports ]; then
+  	  for file in $( ls -1 $dir/*.scss )
+  	  do
+		c1=$(echo $file |  rev | cut -d'/' -f1 | rev |cut -c1)
+		c5=$(echo $file |  rev | cut -d'/' -f1 | rev |cut -c1-5)
+		if [ ! $c1 = _ -a ! $c5 = omega ] ; then 
+		  cssfile=css/$(echo $file|cut -d'/' -f2-|cut -d'.' -f-1).css
+		  #echo "/usr/bin/sass -t expanded -C -I "$importsdir $file $cssfile
+		  /usr/bin/sass -t expanded -C -I $importsdir $file $cssfile
+		fi
+  	  done
+  	fi
+  done
+
+  
+
+echo -e "\n\n###############################################################\n##                          Complete                         ##\n##\n## SCSS in:\n## "$scriptdir"\n## compiled\n###############################################################" 
+cd $DIR

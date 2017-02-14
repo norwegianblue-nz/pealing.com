@@ -1,0 +1,28 @@
+uuid: 6e5b1578-3bbe-4d29-8a1d-0ad8fdb096c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - login_popup
+    - user
+  theme:
+    - plingcom2
+id: loginformpopup
+theme: plingcom2
+region: header
+weight: -9
+provider: null
+plugin: login_form_popup
+settings:
+  id: login_form_popup
+  label: 'Login form popup'
+  provider: login_popup
+  label_display: '0'
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

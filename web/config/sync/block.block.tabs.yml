@@ -1,0 +1,29 @@
+uuid: f9f84b9a-960a-403c-b874-2ff71f9a9352
+langcode: en
+status: false
+dependencies:
+  module:
+    - ctools
+  theme:
+    - plingcom2
+id: tabs
+theme: plingcom2
+region: '-1'
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

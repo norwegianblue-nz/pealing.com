@@ -1,0 +1,48 @@
+uuid: 18cebf68-ac83-495a-9ca5-f8ad4bbd6e07
+langcode: en
+status: true
+dependencies: {  }
+id: familymember
+label: familymember
+weight: 4
+is_admin: null
+permissions:
+  0: 'access content'
+  1: 'access dashboard'
+  2: 'access private content'
+  3: 'access scald dnd library'
+  4: 'add media from remote sources'
+  5: 'administer nodes'
+  6: 'cancel own vote'
+  7: 'create atom of any type'
+  8: 'create atom of audio type'
+  9: 'create atom of image type'
+  10: 'create atom of video type'
+  11: 'create blog content'
+  12: 'delete own atom'
+  13: 'delete own blog content'
+  14: 'download original image'
+  15: 'edit any atom'
+  16: 'edit own atom'
+  17: 'edit own blog content'
+  18: 'edit own comments'
+  19: 'fetch own atom'
+  20: 'import media'
+  21: 'manage own openid_connect accounts'
+  22: 'mark content as private'
+  23: 'openid_connect set own password'
+  24: 'plus1 vote on comment'
+  25: 'plus1 vote on node'
+  26: 'post comments'
+  27: 'search content'
+  28: 'skip comment approval'
+  29: 'use advanced search'
+  30: 'use text format comments'
+  31: 'use text format filtered_html'
+  33: 'use text format wysiwyg'
+  34: 'view media'
+  35: 'view own atom'
+  36: 'view own unpublished content'
+  37: 'vote on polls'
+  38: 'access in-place editing'
+  39: 'use text format basic_html'

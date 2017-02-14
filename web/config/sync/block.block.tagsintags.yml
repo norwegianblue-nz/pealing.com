@@ -1,0 +1,25 @@
+uuid: 234f6f9f-7e41-419e-b95c-859cdc64dd89
+langcode: en
+status: true
+dependencies:
+  module:
+    - tagclouds
+  theme:
+    - plingcom2
+id: tagsintags
+theme: plingcom2
+region: postscript_second
+weight: 0
+provider: null
+plugin: 'tagclouds_block:tags'
+settings:
+  id: 'tagclouds_block:tags'
+  label: 'Tags in Tags'
+  provider: tagclouds
+  label_display: '0'
+  cache:
+    max_age: 0
+    contexts: {  }
+  tags: '0'
+  vocabulary: tags
+visibility: {  }

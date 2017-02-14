@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Omega theme.
+
+plingcom2.settings:
+  type: theme_settings
+  label: 'Plingcom2 O_Five Settings'

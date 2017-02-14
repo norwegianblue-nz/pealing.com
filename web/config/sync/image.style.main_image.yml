@@ -1,0 +1,14 @@
+uuid: 6e21f522-53c6-4992-a99a-79dba45bc9d1
+langcode: en
+status: true
+dependencies: {  }
+name: main_image
+label: 'Main Image'
+effects:
+  9db498ba-40ba-4f1e-9fbd-d910a9a831d1:
+    uuid: 9db498ba-40ba-4f1e-9fbd-d910a9a831d1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 330

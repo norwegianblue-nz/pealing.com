@@ -1,0 +1,27 @@
+uuid: e98a4818-1ac2-4e16-9380-cbaac68431a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_poll.default
+    - field.field.node.poll.comment_node_poll
+    - node.type.poll
+  module:
+    - comment
+    - user
+id: node.poll.default
+targetEntityType: node
+bundle: poll
+mode: default
+content:
+  comment_node_poll:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

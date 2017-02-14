@@ -1,0 +1,19 @@
+uuid: 8724386f-fc03-4f22-9ed8-3aac71dcfe0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.main_image
+    - image.style.max_325x325
+  theme:
+    - plingcom2
+id: main
+label: Main
+image_style_mappings:
+  -
+    breakpoint_id: plingcom2.standard.extrawide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: main_image
+breakpoint_group: plingcom2.standard
+fallback_image_style: max_325x325

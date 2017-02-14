@@ -1,0 +1,10 @@
+uuid: e4f2e471-5ce0-4975-b053-d773cd49f543
+langcode: en
+status: true
+dependencies: {  }
+id: emailnotifications
+label: emailnotifications
+weight: 5
+is_admin: null
+permissions:
+  - 'view media'

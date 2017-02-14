@@ -1,0 +1,20 @@
+uuid: f34801ca-2b4c-41c5-b4d6-7eb88a4671a8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - plingcom2
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: plingcom2_local_actions
+theme: plingcom2
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

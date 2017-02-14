@@ -1,0 +1,8 @@
+uuid: b828179f-8c03-4122-bd1c-2bd70e286b27
+langcode: en
+status: true
+dependencies: {  }
+id: authoreddatedisplay
+label: AuthoredDateDisplay
+locked: false
+pattern: 'd M Y'
