@@ -103,6 +103,24 @@
         .site-slogan {display:none;}
     }
 }
+
+#block-entityviewuser .js-form-item {
+    display: none;
+}
+#block-entityviewuser .field--name-user-picture {
+    float: right;
+    margin: 25px 7px 0 0 ;
+}
+
+
 .scrolled #site-branding .site-name {font-size: 30px;}
 .scrolled #site-branding #logo img {width:75px;}
+.scrolled #block-entityviewuser .field--name-user-picture {
+    margin: 12px 7px 0 0 ;
+}
 
+#block-addblogbutton {
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+}
