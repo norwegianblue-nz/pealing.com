@@ -19,3 +19,6 @@ web/sites/simpletest
 web/sites/*/settings.local.php
 web/sites/*/php_errors.log
 
+web/sites/pealing.com/themes/custom/plingcom2/style/css
+web/sites/pealing.com/themes/custom/plingcom2/style/css_safe.tar.bz2
+web/sites/tyke.pealing.com
