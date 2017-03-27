@@ -8,7 +8,7 @@ dependencies:
     - plingcom2
 id: entityviewcontent
 theme: plingcom2
-region: '-1'
+region: menu
 weight: -4
 provider: null
 plugin: 'entity_view:node'

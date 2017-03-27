@@ -18,10 +18,12 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
   scald_author_url:
     label: above
     weight: 0
     type: text_default
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden: {  }

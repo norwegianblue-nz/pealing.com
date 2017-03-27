@@ -22,6 +22,8 @@ content:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
+    region: content
   links:
     weight: 100
+    region: content
 hidden: {  }

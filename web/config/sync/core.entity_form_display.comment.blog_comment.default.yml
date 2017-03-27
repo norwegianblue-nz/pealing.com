@@ -16,6 +16,7 @@ content:
     weight: -2
     settings: {  }
     third_party_settings: {  }
+    region: content
   comment_body:
     type: text_textarea
     weight: 11
@@ -23,6 +24,7 @@ content:
       rows: 5
       placeholder: Comment
     third_party_settings: {  }
+    region: content
   subject:
     type: string_textfield
     weight: 10
@@ -30,4 +32,5 @@ content:
       size: 60
       placeholder: 'Comment Subject'
     third_party_settings: {  }
+    region: content
 hidden: {  }

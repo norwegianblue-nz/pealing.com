@@ -20,23 +20,28 @@ content:
     weight: -10
     settings: {  }
     third_party_settings: {  }
+    region: content
   contact:
     weight: 5
     settings: {  }
     third_party_settings: {  }
+    region: content
   language:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
   path:
     type: path
     weight: 30
     settings: {  }
     third_party_settings: {  }
+    region: content
   timezone:
     weight: 6
     settings: {  }
     third_party_settings: {  }
+    region: content
   user_picture:
     settings:
       preview_image_style: avatar
@@ -44,4 +49,5 @@ content:
     type: image_image
     weight: 7
     third_party_settings: {  }
+    region: content
 hidden: {  }

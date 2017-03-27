@@ -12,6 +12,6 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'fetch any atom'
+  - 'view TARDIS page'
   - 'view any atom'
   - 'view media'
-  - 'view TARDIS page'

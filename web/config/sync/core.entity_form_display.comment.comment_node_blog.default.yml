@@ -19,6 +19,7 @@ content:
       rows: 5
       placeholder: 'Add Comment'
     third_party_settings: {  }
+    region: content
   subject:
     type: string_textfield
     weight: 1
@@ -26,5 +27,6 @@ content:
       size: 60
       placeholder: 'Comment Subject'
     third_party_settings: {  }
+    region: content
 hidden:
   author: true

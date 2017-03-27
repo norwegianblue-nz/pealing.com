@@ -1,0 +1,12 @@
+id: useravatar
+label: useravatar
+ui_limit: ''
+properties:
+  content:
+    value: '[user:user_picture]'
+    format: plain_text
+type: token
+type_label: 'Token field'
+entities:
+  block_content: block_content
+  user: user

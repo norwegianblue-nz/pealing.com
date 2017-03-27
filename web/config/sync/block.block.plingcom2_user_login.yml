@@ -8,7 +8,7 @@ dependencies:
     - plingcom2
 id: plingcom2_user_login
 theme: plingcom2
-region: '-1'
+region: menu
 weight: -5
 provider: null
 plugin: user_login_block

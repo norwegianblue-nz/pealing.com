@@ -1,0 +1,31 @@
+uuid: 61e03496-b927-4dbf-9959-92df7c0c1701
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - user
+  theme:
+    - plingcom2
+id: entityviewuser
+theme: plingcom2
+region: header
+weight: 0
+provider: null
+plugin: 'entity_view:user'
+settings:
+  id: 'entity_view:user'
+  label: 'Entity view (User)'
+  provider: ctools
+  label_display: '0'
+  view_mode: avatar
+  context_mapping:
+    entity: '@user.current_user_context:current_user'
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

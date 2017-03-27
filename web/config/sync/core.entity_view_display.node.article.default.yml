@@ -28,6 +28,7 @@ content:
     type: text_default
     settings: {  }
     third_party_settings: {  }
+    region: content
   comment:
     type: comment_default
     weight: 110
@@ -36,6 +37,7 @@ content:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
+    region: content
   comment_node_article:
     label: hidden
     type: comment_default
@@ -44,6 +46,7 @@ content:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
+    region: content
   field_image:
     label: hidden
     weight: -1
@@ -52,6 +55,7 @@ content:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
+    region: content
   field_tags:
     label: above
     weight: 10
@@ -59,6 +63,8 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+    region: content
   links:
     weight: 100
+    region: content
 hidden: {  }

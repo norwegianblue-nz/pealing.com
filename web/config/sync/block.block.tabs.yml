@@ -8,7 +8,7 @@ dependencies:
     - plingcom2
 id: tabs
 theme: plingcom2
-region: '-1'
+region: menu
 weight: -7
 provider: null
 plugin: local_tasks_block

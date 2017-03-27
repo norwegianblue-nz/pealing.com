@@ -1,22 +1,32 @@
-uuid: f903a02a-20df-42f2-ae59-3b68c059e25d
+uuid: 547068bd-be6f-42cb-b1ee-f36a0fce2a05
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.user.avatar
     - field.field.user.user.user_picture
     - image.style.avatar
   module:
+    - ds
     - image
     - user
+third_party_settings:
+  ds:
+    fields:
+      'dynamic_token_field:user-useravatar':
+        plugin_id: 'dynamic_token_field:user-useravatar'
+        weight: 0
+        label: hidden
+        formatter: default
 _core:
   default_config_hash: L2mtwGWH_7wDRCMIR4r_Iu_jmvQ10DV1L8ht8iNZ5qY
-id: user.user.default
+id: user.user.avatar
 targetEntityType: user
 bundle: user
-mode: default
+mode: avatar
 content:
   member_for:
-    weight: 5
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -26,7 +36,7 @@ content:
       image_style: avatar
       image_link: content
     type: image
-    weight: 6
+    weight: 0
     third_party_settings: {  }
     region: content
 hidden: {  }
