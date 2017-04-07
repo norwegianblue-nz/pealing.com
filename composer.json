@@ -40,7 +40,8 @@
         "drupal/like_and_dislike": " 1.*@dev",
         "drupal/ckeditor_uploadimage": "^1.2",
         "drupal/libraries": "3.x-dev",
-        "drupal/blog": "2.x-dev"
+        "drupal/blog": "2.x-dev",
+        "drupal/typed_data": "^1.0@alpha"
     },
 
     "require-dev": {

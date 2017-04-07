@@ -142,6 +142,12 @@ h6,
 p a, p a.link {  border-bottom: dotted 0.1em !important;
 }
 
-img.image-style-avatar{
+img.image-style-avatar,img.image-style-blogbtn{
     border-radius: 100%;
+}
+
+#block-addblogbutton {
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
 }

@@ -100,16 +100,16 @@ h2 {float:left;}
 
 // Header - split into two for branding and user menu
 @media all and (max-width: 959px) {
-    #block-plingcom2-branding {@include parrotCols(9, 12, normal, '100');float:left;}
-    #block-loginformpopup {@include parrotCols(3, 12, normal, '100');float:right;}
+    #block-plingcom2-branding {@include parrotCols(11, 12, normal, '100');float:left;}
+    #block-loginformpopup {@include parrotCols(1, 12, normal, '100');float:right;}
 }
 @media all and (min-width: 960px) and (max-width: 1279px) {
-    #block-plingcom2-branding {@include parrotCols(10, 12, normal, '960');float:left;}
-    #block-loginformpopup {@include parrotCols(2, 12, normal, '960');float:right;}
+    #block-plingcom2-branding {@include parrotCols(11, 12, normal, '960');float:left;}
+    #block-loginformpopup {@include parrotCols(1, 12, normal, '960');float:right;}
 }
 @media all and (min-width: 1280px) {
-    #block-plingcom2-branding {@include parrotCols(10, 12, normal, '1200');float:left;}
-    #block-loginformpopup {@include parrotCols(2, 12, normal, '1200');float:right;}
+    #block-plingcom2-branding {@include parrotCols(11, 12, normal, '1200');float:left;}
+    #block-loginformpopup {@include parrotCols(1, 12, normal, '1200');float:right;}
 }
 
 // Postscript 1 and 2 evenly split across page down to mobile sizes
