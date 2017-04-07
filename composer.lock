@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d9ebd3f6651e9d53b90647e8e5e65c5",
+    "content-hash": "6374b90afefe2edbaecaacc5a2535b18",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2510,57 +2510,6 @@
             }
         },
         {
-            "name": "drupal/login_popup",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/login_popup",
-                "reference": "8.x-1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/login_popup-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "4b8bf36b4a2665efeba0e416cd942723f99d6ea2"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1466422927"
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "aditya_anurag",
-                    "homepage": "https://www.drupal.org/user/2672183"
-                },
-                {
-                    "name": "manojapare",
-                    "homepage": "https://www.drupal.org/user/2825053"
-                },
-                {
-                    "name": "rakesh.gectcr",
-                    "homepage": "https://www.drupal.org/user/1177822"
-                }
-            ],
-            "description": "This module gives the provision to get the login form in a popup.",
-            "homepage": "https://www.drupal.org/project/login_popup",
-            "support": {
-                "source": "http://cgit.drupalcode.org/login_popup"
-            }
-        },
-        {
             "name": "drupal/pathauto",
             "version": "1.0.0-rc1",
             "source": {
@@ -2803,7 +2752,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/typed_data-8.x-1.0-alpha1.zip",
-                "reference": null,
+                "reference": "8.x-1.0-alpha1",
                 "shasum": "69b7230546bfea53d57f8923183e964137f5a456"
             },
             "require": {

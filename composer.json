@@ -35,7 +35,6 @@
         "drupal/tagclouds": "1.*@dev",
         "drupal/colorbox": "^1.2",
         "drupal/views_blogspot_archive": " 1.*@dev",
-        "drupal/login_popup": "^1.0",
         "drupal/ajax_comments": " 1.*@dev",
         "drupal/like_and_dislike": " 1.*@dev",
         "drupal/ckeditor_uploadimage": "^1.2",

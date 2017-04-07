@@ -1,0 +1,11 @@
+name: Login Popup
+type: module
+description: Login form in a popup. - This is a custom version with an image for the login link.
+# core: 8.x
+package: norwegian.blue
+
+# Information added by Drupal.org packaging script on 2016-06-20
+version: '8.x-1.0'
+core: '8.x'
+project: 'login_popup'
+datestamp: 1466422422
