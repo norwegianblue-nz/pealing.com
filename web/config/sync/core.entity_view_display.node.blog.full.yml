@@ -22,32 +22,6 @@ dependencies:
     - responsive_image
     - text
     - user
-third_party_settings:
-  ds:
-    layout:
-      id: ds_1col
-      path: modules/contrib/ds
-      library: ''
-      disable_css: false
-      entity_classes: all_classes
-      settings:
-        wrappers:
-          ds_content: div
-        outer_wrapper: div
-        attributes: ''
-        link_attribute: ''
-        link_custom: ''
-        classes:
-          layout_class: {  }
-    regions:
-      ds_content:
-        - body
-        - field_image
-        - field_tags
-        - field_fileupload
-        - links
-        - field_pics
-        - comment_node_blog
 id: node.blog.full
 targetEntityType: node
 bundle: blog
@@ -111,7 +85,7 @@ content:
     region: content
   links:
     weight: 4
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }

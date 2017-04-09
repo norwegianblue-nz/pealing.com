@@ -1,9 +1,9 @@
-uuid: 685c1cf7-cef9-4df3-85ac-a96d323358ec
+uuid: 28a200f4-5944-40dc-bdba-f1439bd05c4f
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:11f09461-5e8a-4fda-a82b-63324863098d'
+    - 'block_content:basic:1566139d-bac2-4333-ab5b-b5eea9a1ade1'
   module:
     - block_content
     - user
@@ -14,9 +14,9 @@ theme: plingcom2
 region: content2
 weight: 0
 provider: null
-plugin: 'block_content:11f09461-5e8a-4fda-a82b-63324863098d'
+plugin: 'block_content:1566139d-bac2-4333-ab5b-b5eea9a1ade1'
 settings:
-  id: 'block_content:11f09461-5e8a-4fda-a82b-63324863098d'
+  id: 'block_content:1566139d-bac2-4333-ab5b-b5eea9a1ade1'
   label: 'Add Blog Button'
   provider: block_content
   label_display: '0'
