@@ -15,7 +15,6 @@ permissions:
   - 'access in-place editing'
   - 'access private content'
   - 'access scald dnd library'
-  - 'access toolbar'
   - 'add media from remote sources'
   - 'administer nodes'
   - 'cancel own vote'
