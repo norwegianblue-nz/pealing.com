@@ -55,7 +55,8 @@ body {
   width: 100%;
   // The min-width is needed so items outside the grid stay the correct width if horizontal scroll 
   // is active so they don't scale to the browser while grid items overflow
-  min-width: $twidth;
+  
+  // min-width: $twidth; Commented out by norwegian.blue as seems to break fluid layouts.
   @include clearfix();
 }
 
