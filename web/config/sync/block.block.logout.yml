@@ -1,9 +1,9 @@
-uuid: 9e8d7713-dadd-410f-852e-4028cb5176ee
+uuid: 2bf9ee1c-2e94-42e5-82c9-2c867b600a2b
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:29ebcc52-72b1-4e32-8ef4-210380c5651d'
+    - 'block_content:basic:de8077fd-09ab-4b41-bf8d-364c14a579f4'
   module:
     - block_content
     - system
@@ -15,9 +15,9 @@ theme: plingcom2
 region: content2
 weight: 0
 provider: null
-plugin: 'block_content:29ebcc52-72b1-4e32-8ef4-210380c5651d'
+plugin: 'block_content:de8077fd-09ab-4b41-bf8d-364c14a579f4'
 settings:
-  id: 'block_content:29ebcc52-72b1-4e32-8ef4-210380c5651d'
+  id: 'block_content:de8077fd-09ab-4b41-bf8d-364c14a579f4'
   label: Logout
   provider: block_content
   label_display: '0'
