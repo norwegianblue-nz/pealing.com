@@ -100,3 +100,14 @@
     -moz-column-rule: $rule; /* Firefox */
     column-rule: $rule;
 }
+
+@mixin plingcom2Button ($backgroundColor:$plingcom2_Teal){
+	padding: 10px;
+	background-color:$backgroundColor;
+	border: none;
+	color: #fff;
+	margin: 0 !important;
+	text-transform: uppercase;
+	font-family:$plingcom2_WorkSans-Light;
+	font-size:14px;
+}
