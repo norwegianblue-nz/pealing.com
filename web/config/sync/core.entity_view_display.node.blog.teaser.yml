@@ -35,14 +35,14 @@ content:
     type: image
     settings:
       image_style: thumbnail
-      image_link: ''
+      image_link: content
     third_party_settings: {  }
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   comment_node_blog: true
   field_fileupload: true
