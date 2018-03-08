@@ -44,8 +44,8 @@ content:
     third_party_settings: {  }
     region: content
   field_fileupload:
-    label: inline
-    weight: 3
+    label: hidden
+    weight: 4
     type: file_default
     settings: {  }
     third_party_settings: {  }
@@ -61,7 +61,7 @@ content:
     region: content
   field_pics:
     type: colorbox
-    weight: 5
+    weight: 3
     label: hidden
     settings:
       colorbox_node_style: thumbnail
@@ -84,7 +84,7 @@ content:
     third_party_settings: {  }
     region: content
   links:
-    weight: 4
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
