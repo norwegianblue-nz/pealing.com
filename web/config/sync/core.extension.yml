@@ -51,7 +51,6 @@ module:
   migrate_upgrade: 0
   node: 0
   options: 0
-  outside_in: 0
   page_cache: 0
   path: 0
   pathauto: 0
