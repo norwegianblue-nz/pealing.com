@@ -1,0 +1,39 @@
+uuid: 2bf9ee1c-2e94-42e5-82c9-2c867b600a2b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:de8077fd-09ab-4b41-bf8d-364c14a579f4'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - plingcom2
+id: logout
+theme: plingcom2
+region: content2
+weight: 0
+provider: null
+plugin: 'block_content:de8077fd-09ab-4b41-bf8d-364c14a579f4'
+settings:
+  id: 'block_content:de8077fd-09ab-4b41-bf8d-364c14a579f4'
+  label: Logout
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
