@@ -46,7 +46,7 @@ for dir in $(find scss -type d -exec ls -1d {} \; )
 		if [ ! $c1 = _ -a ! $c5 = omega ] ; then 
 		  cssfile=css/$(echo $file|cut -d'/' -f2-|cut -d'.' -f-1).css
 		  #echo "/usr/bin/sass -t expanded -C -I "$importsdir $file $cssfile
-		  /usr/bin/sass -t expanded -C -I $importsdir $file $cssfile
+		  /usr/local/bin/sass -t expanded -C -I $importsdir $file $cssfile
 		fi
   	  done
   	fi
