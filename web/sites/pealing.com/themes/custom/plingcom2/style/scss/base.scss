@@ -1,7 +1,7 @@
 /**
  * @file
  * Omega's primary SCSS controller, that pulls in any relevant SCSS includes
- * 
+ *
  * All styles declared in Omega use the !default property.
  * Any overrides in your subtheme will not include this and can override styles and variables selectively.
  * In your subtheme, you can comment out any of the @import declarations you like if you'd like to create your own styles for that element.
@@ -29,7 +29,7 @@
 // Omega screen indicator styles
 //@import "elements/_demo_indicator.scss";
 
-// Default Comment styles 
+// Default Comment styles
 @import "elements/_comments.scss";
 // Default HTML Element styles (a, p, img, h1-6, etc.)
 @import "elements/_html-elements.scss";
@@ -51,5 +51,5 @@
 //@import "elements/_forms.scss";
 // Drupal taxonomy adjustments
 //@import "elements/_taxonomy-terms.scss";
-
-
+// DrupalChat adjustments
+@import "elements/_drupalchat.scss";

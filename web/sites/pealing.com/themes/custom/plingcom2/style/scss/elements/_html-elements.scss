@@ -2,8 +2,8 @@
 
 // Apply a natural box layout model to all elements http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 *, *:before, *:after {
-  -moz-box-sizing: border-box; 
-  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -67,21 +67,21 @@ blockquote {
 }
 
 ul {
-  
+
   li {
-    
+
   }
 }
 
 ol {
-  
+
   li {
-    
+
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  
+
 }
 
 h1 ,
@@ -161,3 +161,4 @@ img.image-style-blogbtn{
 }
 #block-logout {margin: 5px 0 0 0;}
 a.button { @include plingcom2Button; }
+.button.floatbtn.blogbtn {background: none;}

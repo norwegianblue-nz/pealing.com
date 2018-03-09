@@ -1,0 +1,30 @@
+@import "plingcom2-style-vars", "plingcom2-default-style-vars";
+#drupalchat{
+  .chatboxusername a {
+	  color: $primaryColor2 !important;
+  }
+  .subpanel_title, a.chatboxhead, a.chat.subpanel_toggle {
+  	background: $plingcom2_Teal ;
+    font-family: $defaultHeaderFont ;
+  	font-weight: normal ;
+  	font-size: $generalTextSize ;
+    text-transform: lowercase;
+  }
+  .chatboxcontent p {
+    color: $primaryColor1;
+    font-family: $plingcom2_WorkSans-Light;
+    font-size: $generalTextSize;
+  }
+  .subpanel {
+    @include plingcom2Corners;
+    bottom : 0;
+    z-index: 200;
+  }
+  a.chatboxhead, a.chat.subpanel_toggle {
+    @include plingcom2Corners;
+  	color: #fff;
+  }
+  a.chatboxhead:hover, a.chat.subpanel_toggle:hover {
+    background: $plingcom2_TransTeal ;
+  }
+}
