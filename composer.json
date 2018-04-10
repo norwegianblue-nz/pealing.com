@@ -42,7 +42,10 @@
         "drupal/blog": "2.x-dev",
         "drupal/typed_data": "^1.0@alpha",
         "drupal/nodejs": "^1.1",
-        "drupal/drupalchat": "^1.0@beta"
+        "drupal/drupalchat": "^1.0@beta",
+        "drupal/entity_embed": "^1.0@beta",
+        "drupal/url_embed": "^1.0@alpha",
+        "drupal/video_embed_field": "^2.0"
     },
 
     "require-dev": {
