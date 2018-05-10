@@ -45,7 +45,14 @@
         "drupal/drupalchat": "^1.0@beta",
         "drupal/entity_embed": "^1.0@beta",
         "drupal/url_embed": "^1.0@alpha",
-        "drupal/video_embed_field": "^2.0"
+        "drupal/video_embed_field": "^2.0",
+        "drupal/video_embed_html5": "^1.0",
+        "drupal/inline_entity_form": "^1.0@beta",
+        "drupal/entity_browser": "^1.4",
+        "drupal/media_entity": "~2",
+        "drupal/views_infinite_scroll": "^1.5",
+        "drupal/ctools": "^3.0",
+        "drupal/media_entity_image": "^1.2"
     },
 
     "require-dev": {

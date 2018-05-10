@@ -11,6 +11,8 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
+  - 'access drupalchat'
+  - 'access drupalchat own logs'
   - 'fetch any atom'
   - 'view TARDIS page'
   - 'view any atom'

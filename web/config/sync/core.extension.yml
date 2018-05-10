@@ -26,6 +26,11 @@ module:
   ds_switch_view_mode: 0
   dynamic_page_cache: 0
   editor: 0
+  embed: 0
+  entity: 0
+  entity_browser: 0
+  entity_browser_entity_form: 0
+  entity_embed: 0
   field: 0
   field_ui: 0
   file: 0
@@ -38,6 +43,7 @@ module:
   image: 0
   image_effects: 0
   imagemagick: 0
+  inline_entity_form: 0
   inline_form_errors: 0
   layout_plugin: 0
   libraries: 0
@@ -76,8 +82,13 @@ module:
   toolbar: 0
   tour: 0
   typed_data: 0
+  url_embed: 0
   user: 0
+  video_embed_field: 0
+  video_embed_html5: 0
+  video_embed_media: 0
   views_blogspot_archive: 0
+  views_infinite_scroll: 0
   views_ui: 0
   votingapi: 0
   menu_link_content: 1

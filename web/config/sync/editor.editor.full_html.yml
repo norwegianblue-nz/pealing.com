@@ -42,6 +42,8 @@ settings:
           items:
             - Blockquote
             - DrupalImage
+            - url
+            - node
             - Table
             - HorizontalRule
         -
@@ -58,10 +60,10 @@ settings:
             - SpecialChar
             - Maximize
   plugins:
-    stylescombo:
-      styles: ''
     language:
       language_list: un
+    stylescombo:
+      styles: ''
 image_upload:
   status: true
   scheme: public

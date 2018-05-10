@@ -1,4 +1,4 @@
-service_key: __FIXME__
+service_key: DeafB41C6335128377345710NB
 resource: /socket.io
 log_http_errors: true
 auth_get_token_callback: nodejs_auth_get_token_callback
@@ -10,12 +10,12 @@ nodejs:
   scheme: http
   secure: 0
   host: localhost
-  port: 8080
+  port: '8090'
 client:
   scheme: http
   secure: 0
   host: localhost
-  port: 8080
+  port: '8090'
 socket_io:
   path: ''
   type: external

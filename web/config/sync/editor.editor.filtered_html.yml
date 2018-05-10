@@ -32,6 +32,7 @@ settings:
           items:
             - Blockquote
             - DrupalImage
+            - url
         -
           name: Tools
           items:
