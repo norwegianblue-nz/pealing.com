@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: $reg;
+  font-family: $plingcom2_gentext;
   font-size: 100%;
   max-width: 100%;
   -webkit-text-size-adjust:none;
@@ -30,6 +30,8 @@ body.toolbar-tray-open.toolbar-vertical.toolbar-fixed {
 }
 
 a {
+  //font-family: $plingcom2_WorkSans-Light;
+  font-size: 1em;
   text-decoration: none;
   color: rgba($primaryColor2, 1);
   @include plingcom2Transition(opacity, 0.25s, ease-in-out);
@@ -53,6 +55,7 @@ p , .field--type-text-with-summary {
   color: rgba($primaryColor1, 1);
   font-size:$generalTextSize;
   margin: 0 0 1.2em;
+  font-family: $plingcom2_gentext;
 }
 del {
   text-decoration: line-through;
@@ -99,7 +102,7 @@ h2,
   font-weight: inherit;
   font-size: $desktopH2;
   color: $primaryColor2;
-  font-family:$defaultHeaderFont;
+  font-family:$plingcom2_gentext;
 }
 
 h3,
@@ -162,3 +165,6 @@ img.image-style-blogbtn{
 #block-logout {margin: 5px 0 0 0;}
 a.button { @include plingcom2Button; }
 .button.floatbtn.blogbtn {background: none;}
+
+// Usernames
+.username {font-family: $defaultHeaderFont;}

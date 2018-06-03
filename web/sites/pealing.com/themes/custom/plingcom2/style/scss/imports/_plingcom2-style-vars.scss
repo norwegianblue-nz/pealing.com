@@ -1,6 +1,6 @@
 @import "plingcom2_mixins";
-  
-// Basic Color Variables 
+
+// Basic Color Variables
 $primaryColor1: #0062A0;
 $primaryColor2: #1D7459;
 $primaryColor3: #CCCCCC;
@@ -30,11 +30,12 @@ $defaultHeaderFont: comfortaaregular,Arial,sans-serif;
 $defaultBodyFont: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // pealing.com Font Sizes
-$generalTextSize: 1em;
+$generalTextSize: 1.1em;
 $desktopH2: 2.2em;
 $mobileH2: 1.8em;
 
 // pealing.com Fonts
+$plingcom2_gentext: "Special Elite", "work_sanslight", sans-serif;
 $plingcom2_WorkSans-Light: "work_sanslight", sans-serif;
 $plingcom2_WorkSans-Hairline: "work_sanshairline", sans-serif;
 $ktrk0_Exo2-LightCondensed:"exo_2light_condensed", sans-serif;
