@@ -32,7 +32,7 @@ settings:
           items:
             - Blockquote
             - DrupalImage
-            - node
+            - local_media
             - url
         -
           name: Tools

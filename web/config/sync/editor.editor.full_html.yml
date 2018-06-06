@@ -42,8 +42,8 @@ settings:
           items:
             - Blockquote
             - DrupalImage
+            - local_media
             - url
-            - node
             - Table
             - HorizontalRule
         -

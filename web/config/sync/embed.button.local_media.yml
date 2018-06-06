@@ -1,0 +1,29 @@
+uuid: 4b1bcf08-9b31-4a10-bcd3-ce07b0759c42
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.audio
+    - media.type.embedded_videos
+    - media.type.image
+    - media.type.video
+  content:
+    - 'file:file:37d219f2-4f94-4e1a-b5d8-423471c98d29'
+  module:
+    - entity_embed
+    - media
+label: 'Insert local media'
+id: local_media
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - audio
+    - embedded_videos
+    - image
+    - video
+  display_plugins: {  }
+  entity_browser: inline_media
+  entity_browser_settings:
+    display_review: false
+icon_uuid: 37d219f2-4f94-4e1a-b5d8-423471c98d29
