@@ -1,0 +1,22 @@
+uuid: feafd60b-33d2-443c-b670-a51ae4f167aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: help_pages
+label: 'Help Pages'
+type: 'canonical_entities:node'
+pattern: 'help/[node:title]'
+selection_criteria:
+  01a6276d-6c95-43cd-b9dd-7dfa306edfe7:
+    id: node_type
+    bundles:
+      help: help
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 01a6276d-6c95-43cd-b9dd-7dfa306edfe7
+selection_logic: and
+weight: -5
+relationships: {  }

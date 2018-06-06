@@ -25,6 +25,7 @@ permissions:
   - 'create atom of image type'
   - 'create atom of video type'
   - 'create blog content'
+  - 'create terms in tags'
   - 'delete own atom'
   - 'delete own blog content'
   - 'download original image'

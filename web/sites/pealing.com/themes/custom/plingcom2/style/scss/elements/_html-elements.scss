@@ -169,10 +169,10 @@ a.button { @include plingcom2Button; }
 // More Photos - display as grid
 div.field.field--name-field-more-photos {
 	grid-template-columns: 100px 100px 100px 100px;
-	/* grid-column-gap: 10px; */
+  grid-column-gap: 5px; 
 	display: grid;
 	grid-row-gap: 10px;
 }
 
 // Usernames
-.username {font-family: $defaultHeaderFont;}
+.comment__content h3 a.permalink, p.comment__author, .username {font-family: $defaultHeaderFont;}

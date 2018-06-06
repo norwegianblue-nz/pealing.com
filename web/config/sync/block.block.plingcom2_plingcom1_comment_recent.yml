@@ -5,6 +5,7 @@ dependencies:
   config:
     - views.view.comments_recent
   module:
+    - node
     - system
     - views
   theme:
@@ -26,4 +27,17 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    pages: "/content/archive\n/archive"
+    pages: "/content/archive\r\n/archive"
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      blog: blog
+      blog_post: blog_post
+      frontpagecustom: frontpagecustom
+      page: page
+      poll: poll
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

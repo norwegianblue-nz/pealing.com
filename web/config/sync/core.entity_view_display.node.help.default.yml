@@ -1,0 +1,28 @@
+uuid: f5ffb812-1145-4191-8f04-7739e222af7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.help.body
+    - node.type.help
+  module:
+    - text
+    - user
+id: node.help.default
+targetEntityType: node
+bundle: help
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - node
     - tagclouds
   theme:
     - plingcom2
@@ -22,4 +23,16 @@ settings:
     contexts: {  }
   tags: '0'
   vocabulary: tags
-visibility: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      blog: blog
+      blog_post: blog_post
+      frontpagecustom: frontpagecustom
+      page: page
+      poll: poll
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

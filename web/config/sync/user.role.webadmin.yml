@@ -30,6 +30,7 @@ permissions:
   - 'create blog content'
   - 'create page content'
   - 'create poll content'
+  - 'create terms in tags'
   - 'delete own article content'
   - 'delete own atom'
   - 'delete own blog content'
