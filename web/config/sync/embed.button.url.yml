@@ -6,7 +6,7 @@ dependencies:
     - url_embed
 _core:
   default_config_hash: p_AtPbTd6niywC8P6zRfczYFjYLsejfH7Qcwo47ixCM
-label: URL
+label: 'Embed media (eg YouTube)'
 id: url
 type_id: url
 type_settings: {  }

@@ -1,0 +1,41 @@
+uuid: ed05d5cd-2515-4810-9683-e9dcfe8f6e34
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.media_browser
+  module:
+    - views
+name: images
+label: Images
+display: iframe
+display_configuration:
+  width: '400'
+  height: '300'
+  link_text: 'Choose images'
+  auto_open: true
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  2244196b-afec-438b-8988-54e4ab07ac1c:
+    settings:
+      view: media_browser
+      view_display: entity_browser_1
+      submit_text: 'Add selected'
+      auto_select: false
+    uuid: 2244196b-afec-438b-8988-54e4ab07ac1c
+    weight: 1
+    label: 'Choose existing'
+    id: view
+  42fc1549-d1b3-4103-85c8-ffcd65d68285:
+    settings:
+      upload_location: 'public://'
+      multiple: true
+      submit_text: 'Select files'
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+    uuid: 42fc1549-d1b3-4103-85c8-ffcd65d68285
+    weight: 2
+    label: 'Upload new'
+    id: upload

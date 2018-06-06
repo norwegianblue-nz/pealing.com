@@ -7,13 +7,16 @@ dependencies:
     - field.field.node.blog.comment_node_blog
     - field.field.node.blog.field_fileupload
     - field.field.node.blog.field_image
+    - field.field.node.blog.field_media_asset
     - field.field.node.blog.field_pics
     - field.field.node.blog.field_tags
     - image.style.thumbnail
     - node.type.blog
   module:
+    - entity_browser_entity_form
     - file
     - image
+    - inline_entity_form
     - path
     - text
 id: node.blog.default
@@ -32,7 +35,7 @@ content:
     region: content
   created:
     type: datetime_timestamp
-    weight: 7
+    weight: 8
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -50,6 +53,21 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
+    region: content
+  field_media_asset:
+    weight: 5
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: media_assets
+    type: inline_entity_form_complex
     region: content
   field_pics:
     weight: 4
@@ -70,7 +88,7 @@ content:
     region: content
   path:
     type: path
-    weight: 10
+    weight: 11
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -78,21 +96,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 8
+    weight: 9
     third_party_settings: {  }
     region: content
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 12
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 9
+    weight: 10
     third_party_settings: {  }
     region: content
   title:
@@ -105,7 +123,7 @@ content:
     region: content
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 7
     settings:
       match_operator: CONTAINS
       size: 60

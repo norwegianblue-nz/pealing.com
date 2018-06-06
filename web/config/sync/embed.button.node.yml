@@ -2,16 +2,21 @@ uuid: b809c875-c65b-47c4-a17a-66f65f483372
 langcode: en
 status: true
 dependencies:
+  content:
+    - 'file:file:1f14a388-5196-42db-8b04-bbdb451b02c5'
   module:
     - entity_embed
     - node
 _core:
   default_config_hash: xgvZUh-eaMilacE1XYCQ9nLH-2-meOjCyofXSO82gqg
-label: Node
+label: 'Insert local media'
 id: node
 type_id: entity
 type_settings:
   entity_type: node
   bundles: {  }
   display_plugins: {  }
-icon_uuid: null
+  entity_browser: media_assets
+  entity_browser_settings:
+    display_review: false
+icon_uuid: 1f14a388-5196-42db-8b04-bbdb451b02c5

@@ -1,0 +1,15 @@
+uuid: 8f3255c1-fdec-4743-a347-c9fae9fa1744
+langcode: en
+status: true
+dependencies:
+  module:
+    - video_embed_media
+id: embedded_videos
+label: 'Embedded Videos'
+description: 'Used for embedding videos'
+source: video_embed_field
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_video_embed_field
+field_map: {  }

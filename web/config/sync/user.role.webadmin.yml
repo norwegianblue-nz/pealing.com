@@ -13,6 +13,7 @@ permissions:
   - 'access content overview'
   - 'access dashboard'
   - 'access in-place editing'
+  - 'access media_assets entity browser pages'
   - 'access private content'
   - 'access scald dnd library'
   - 'add media from remote sources'
