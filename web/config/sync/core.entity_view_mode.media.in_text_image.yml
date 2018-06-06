@@ -1,0 +1,10 @@
+uuid: f1607eba-108a-407b-8e60-c0d404a683e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.in_text_image
+label: 'In-text Image'
+targetEntityType: media
+cache: true

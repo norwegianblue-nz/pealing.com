@@ -22,7 +22,10 @@ type_settings:
     - embedded_videos
     - image
     - video
-  display_plugins: {  }
+  display_plugins:
+    - 'view_mode:media.colorbox'
+    - 'view_mode:media.full'
+    - 'entity_reference:entity_reference_label'
   entity_browser: inline_media
   entity_browser_settings:
     display_review: false
