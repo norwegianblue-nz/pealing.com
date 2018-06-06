@@ -6,9 +6,11 @@ dependencies:
     - core.entity_view_display.comment.comment_node_blog.default
     - field.field.node.blog.body
     - field.field.node.blog.comment_node_blog
+    - field.field.node.blog.field_file_upload
     - field.field.node.blog.field_fileupload
     - field.field.node.blog.field_image
     - field.field.node.blog.field_media_asset
+    - field.field.node.blog.field_more_photos
     - field.field.node.blog.field_pics
     - field.field.node.blog.field_tags
     - node.type.blog
@@ -66,6 +68,15 @@ content:
       view_mode: default
     third_party_settings: {  }
     region: content
+  field_file_upload:
+    type: entity_reference_entity_view
+    weight: 9
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
   field_fileupload:
     label: above
     weight: 4
@@ -85,6 +96,15 @@ content:
   field_media_asset:
     type: entity_reference_entity_view
     weight: 7
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_more_photos:
+    type: entity_reference_entity_view
+    weight: 8
     label: above
     settings:
       view_mode: default

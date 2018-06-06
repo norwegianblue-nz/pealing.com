@@ -166,5 +166,13 @@ img.image-style-blogbtn{
 a.button { @include plingcom2Button; }
 .button.floatbtn.blogbtn {background: none;}
 
+// More Photos - display as grid
+div.field.field--name-field-more-photos {
+	grid-template-columns: 100px 100px 100px 100px;
+	/* grid-column-gap: 10px; */
+	display: grid;
+	grid-row-gap: 10px;
+}
+
 // Usernames
 .username {font-family: $defaultHeaderFont;}

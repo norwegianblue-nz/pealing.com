@@ -8,7 +8,10 @@ weight: 4
 is_admin: null
 permissions:
   - 'access content'
+  - 'access contextual links'
   - 'access dashboard'
+  - 'access files entity browser pages'
+  - 'access images entity browser pages'
   - 'access in-place editing'
   - 'access media overview'
   - 'access media_assets entity browser pages'

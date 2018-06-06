@@ -1,4 +1,4 @@
-uuid: ed05d5cd-2515-4810-9683-e9dcfe8f6e34
+uuid: a1e95680-eede-4e93-a5b2-7fe23db7a949
 langcode: en
 status: true
 dependencies:
@@ -6,26 +6,26 @@ dependencies:
     - views.view.media_browser
   module:
     - views
-name: images
-label: Images
+name: files
+label: Files
 display: iframe
 display_configuration:
   width: '400'
   height: '300'
-  link_text: 'Choose photos'
+  link_text: 'Select entities'
   auto_open: true
 selection_display: no_display
 selection_display_configuration: {  }
 widget_selector: tabs
 widget_selector_configuration: {  }
 widgets:
-  2244196b-afec-438b-8988-54e4ab07ac1c:
+  a1702b4c-7109-49c0-a1b7-53ff22c7d5a4:
     settings:
       view: media_browser
-      view_display: entity_browser_2
-      submit_text: 'Add selected'
+      view_display: entity_browser_3
+      submit_text: 'Choose files'
       auto_select: false
-    uuid: 2244196b-afec-438b-8988-54e4ab07ac1c
+    uuid: a1702b4c-7109-49c0-a1b7-53ff22c7d5a4
     weight: 1
-    label: 'Choose existing'
+    label: 'Choose file'
     id: view

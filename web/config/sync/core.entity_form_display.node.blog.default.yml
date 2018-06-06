@@ -5,16 +5,17 @@ dependencies:
   config:
     - field.field.node.blog.body
     - field.field.node.blog.comment_node_blog
+    - field.field.node.blog.field_file_upload
     - field.field.node.blog.field_fileupload
     - field.field.node.blog.field_image
     - field.field.node.blog.field_media_asset
+    - field.field.node.blog.field_more_photos
     - field.field.node.blog.field_pics
     - field.field.node.blog.field_tags
     - image.style.thumbnail
     - node.type.blog
   module:
     - entity_browser_entity_form
-    - file
     - image
     - inline_entity_form
     - path
@@ -39,12 +40,20 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_fileupload:
+  field_file_upload:
     weight: 6
-    type: file_generic
     settings:
-      progress_indicator: throbber
-    third_party_settings: {  }
+      form_mode: default
+      override_labels: true
+      label_singular: file
+      label_plural: files
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: files
+    type: inline_entity_form_complex
     region: content
   field_image:
     weight: 1
@@ -69,13 +78,20 @@ content:
         entity_browser_id: media_assets
     type: inline_entity_form_complex
     region: content
-  field_pics:
+  field_more_photos:
     weight: 4
-    type: image_image
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
+      form_mode: default
+      override_labels: true
+      label_singular: photo
+      label_plural: photos
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: images
+    type: inline_entity_form_complex
     region: content
   field_tags:
     weight: 3
@@ -132,3 +148,5 @@ content:
     region: content
 hidden:
   comment_node_blog: true
+  field_fileupload: true
+  field_pics: true

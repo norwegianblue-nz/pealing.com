@@ -1,0 +1,10 @@
+uuid: 7196081a-7532-4db3-9652-64c74a1fe6ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.files
+label: Files
+targetEntityType: media
+cache: true

@@ -1,0 +1,28 @@
+uuid: eee54ea5-13d0-44cd-b802-802d49efc7e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file_upload
+    - media.type.file
+    - node.type.blog
+id: node.blog.field_file_upload
+field_name: field_file_upload
+entity_type: node
+bundle: blog
+label: 'Uploaded Files'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      file: file
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
